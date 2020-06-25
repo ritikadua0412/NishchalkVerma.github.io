@@ -1,0 +1,326 @@
+*
+{
+margin: 0;
+padding: 0;
+}
+
+.nav-bar
+{
+position: sticky;
+top: 0;
+z-index: 10;
+background-color: rgba(0,0,0, 0.4);
+height: 110px;
+
+}
+.navbar
+{
+background-color:#fff;
+}
+.navbar-brand img
+{
+height: 100px;
+padding-left: 10px;
+}
+.navbar-nav li
+{
+ padding: 0 10px;
+}
+.navbar-nav li a
+{
+float: right;
+text-align: left;
+}
+.nav-bar ul li a:hover
+{
+color:#007bff!important;
+}
+
+.navbar-toggler
+{
+border: none!important;
+}
+.nav-link
+{
+color:#555!important;
+font-weight:600;
+font-size:16px;
+}
+.slider
+{
+
+width: 750px;
+ margin-left: auto;
+  margin-right: auto;
+}
+/*-------------About--------------*/
+#about
+{
+  padding-top: 50px;
+ padding-bottom: 50px;
+margin-left:auto;
+margin-right:auto;
+ color:#555;
+}
+#about .btn
+{
+background-color:#1E90FF;
+border-radius: 4px;
+border:none;
+color:#fff;
+cursor:pointer;
+transition: all 0.5sec;
+margin-top: 20px;
+margin-bottom: 30px;
+}
+#about .btn span
+{
+ cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+#about .btn span:after
+{
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -18px;
+  transition: 0.5s;
+}
+#about .btn:hover span {
+  padding-right: 25px;
+}
+#about .btn:hover span:after{
+  opacity: 1;
+  right: 0;
+}
+.about-content
+{
+padding-top: 20px;
+font-weight:600;
+word-wrap:break-word;
+}
+#about p
+{
+font-weight:500;
+}
+/*------------BIOGRAPHY-----------*/
+#biography 
+{
+background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(http://iitk.ac.in/idea/img/sir1.jpg);
+background-position: center;
+background-size:contain;
+color:#efefef !important;
+background-attachment: fixed;
+padding-top:50px;
+padding-bottom: 50px;
+margin-left:auto;
+margin-right:auto;
+
+}
+#biography h2
+{
+text-align:center;
+color: #efefef !important;
+padding-bottom:10px;
+}
+#biography h2::after
+{
+content: '';
+background:#efefef;
+display: block;
+height:3px;
+width: 170px;
+margin: 20px auto 5px;
+}
+.icon p
+{
+text-align:center;
+font-weight:500;
+}
+.icon p:hover
+{
+background:#007bff;
+cursor: pointer;
+transition: 0.7s;
+}
+/*------------Experience------------*/
+#experience
+{
+ padding-top: 50px;
+padding-bottom: 50px;
+color: #555;
+}
+#experience h2
+{
+text-align:center;
+color: #555 !important;
+padding-bottom:10px;
+}
+#experience h2::after
+{
+content:'';
+background:#007bff;
+display:block;
+height:3px;
+width: 500px;
+margin: 20px auto 5px;
+}
+#researchfocus
+{
+ padding-top: 50px;
+padding-bottom: 50px;
+color: #555;
+}
+#researchfocus h2
+{
+text-align:center;
+color: #555 !important;
+padding-bottom:10px;
+}
+#researchfocus h2::after
+{
+content:'';
+background:#007bff;
+display:block;
+height:3px;
+width: 230px;
+margin: 20px auto 5px;
+}
+#awards
+{
+ padding-top: 50px;
+padding-bottom: 50px;
+color: #555;
+}
+#awards h2
+{
+text-align:center;
+color: #555 !important;
+padding-bottom:10px;
+}
+#awards h2::after
+{
+content:'';
+background:#007bff;
+display:block;
+height:3px;
+width: 110px;
+margin: 20px auto 5px;
+}
+#awards .ab li
+{
+list-style-type: square;
+margin: 1em 0;
+}
+#recognitions
+{
+ padding-top: 50px;
+padding-bottom: 50px;
+color: #555;
+}
+#recognitions h2
+{
+text-align:center;
+color: #555 !important;
+padding-bottom:10px;
+}
+#recognitions h2::after
+{
+content:'';
+background:#007bff;
+display:block;
+height:3px;
+width: 190px;
+margin: 20px auto 5px;
+}
+#recognitions .ab li
+{
+list-style-type: square;
+margin: 1em 0;
+}
+#researchfocus .ab li
+{
+list-style-type: square;
+}
+.rows .ab
+{
+margin-top: 25px;
+}
+#experience .ab li
+{
+list-style-type: square;
+}
+#people
+{
+ padding-top: 50px;
+padding-bottom: 50px;
+color: #555;
+}
+#people h2
+{
+text-align:center;
+color: #555 !important;
+padding-bottom:10px;
+}
+#people h2::after
+{
+content:'';
+background:#007bff;
+display:block;
+height:3px;
+width: 200px;
+margin: 20px auto 5px;
+}
+.profile-pic
+{
+margin-top: 25px;
+}
+.profile-pic .img-box
+{
+opacity: 1;
+display:block;
+position:relative;
+}
+.profile pic .img-box .img-responsive
+{
+ filter: grayscale(1);
+  
+}
+.img-responsive
+{
+border: 1px solid #ddd;
+border-radius: 75px;
+ width:50%
+}
+
+.profile-pic .img-box .img-responsive:hover
+{
+filter:grayscale(0);
+cursor:pointer;
+box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.profile-pic .a1 h3
+{
+text-align:center;
+font-size: 22px;
+font-weight: bold;
+margin-top:15px;
+color:#0007bff !important;
+}
+.profile-pic .a1 p
+{
+text-align:center;
+font-size: 15px;
+font-weight: bold;
+margin-top:15px;
+}
+/*-------FOOTER*/
+#footer
+{
+background:#333;
+color:#fff;
+padding: 12px;
+}
